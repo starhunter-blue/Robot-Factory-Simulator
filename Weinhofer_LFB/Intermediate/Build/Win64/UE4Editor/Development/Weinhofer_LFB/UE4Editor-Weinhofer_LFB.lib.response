@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Weinhofer_LFB.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\Weinhofer_LFBEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\Module.Weinhofer_LFB.cpp.obj"
+"F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\Module.Weinhofer_LFB.gen.cpp.obj"
+"F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\Default.rc2.res"
+/OUT:"F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\UE4Editor-Weinhofer_LFB.lib"
+/INCLUDE:IMPLEMENT_MODULE_Weinhofer_LFB

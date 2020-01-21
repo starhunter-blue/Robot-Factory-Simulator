@@ -1,0 +1,50 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\Bachelorarbeit Mathias\Bachelorarbeit).
+  Creating makefile for Weinhofer_LFBEditor (no existing makefile)
+  Parsing headers for Weinhofer_LFBEditor
+    Running UnrealHeaderTool "F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Weinhofer_LFB.uproject" "F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\Weinhofer_LFBEditor\Development\Weinhofer_LFBEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Weinhofer_LFBEditor in 4,9461726 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 8 processes...
+    [1/7] Default.rc2
+    [2/7] SharedPCH.Engine.cpp
+    [3/7] Module.Weinhofer_LFB.gen.cpp
+    [4/7] Module.Weinhofer_LFB.cpp
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(99): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(146): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(157): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(188): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(195): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(216): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(229): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(252): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(259): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(285): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(308): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(327): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(338): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(347): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(368): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+F:/Bachelorarbeit Mathias/Bachelorarbeit/Weinhofer_LFB/Source/Weinhofer_LFB/Robot.cpp(380): warning C4458: declaration of 'Controller' hides class member
+    F:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(158): note: see declaration of 'APawn::Controller'
+    [5/7] UE4Editor-Weinhofer_LFB.lib
+       Creating library F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\UE4Editor-Weinhofer_LFB.lib and object F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\UE4Editor-Weinhofer_LFB.exp
+    [6/7] UE4Editor-Weinhofer_LFB.dll
+       Creating library F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\UE4Editor-Weinhofer_LFB.suppressed.lib and object F:\Bachelorarbeit Mathias\Bachelorarbeit\Weinhofer_LFB\Intermediate\Build\Win64\UE4Editor\Development\Weinhofer_LFB\UE4Editor-Weinhofer_LFB.suppressed.exp
+    [7/7] Weinhofer_LFBEditor.target
+  Total time in Parallel executor: 21,63 seconds
+  Total execution time: 28,52 seconds

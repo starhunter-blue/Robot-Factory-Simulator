@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Weinhofer_LFB.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CD85877C-F7DB-4899-BA9D-21147EE4AB16}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Weinhofer_LFB.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Weinhofer_LFBEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{33FB9D22-7EDD-40D7-9074-FF7BA6AD970E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{1F9A27B5-15D5-4450-9DD5-040E3D270686}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{C272B0F8-E37A-4716-94E4-D7A6FA2308F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{269664B6-354B-4C3D-82E7-99DBA7EAC11A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{BE3692AD-5D21-42F1-B160-B487B505F3F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{A24282BC-EA44-48C5-98D1-967701F6ED15}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{666B29FC-6FE4-4BFF-825B-74E57AC9C3B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{1FD4B474-3525-464C-B160-EF991A050AC2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{57DCB06B-743E-45CB-AEA1-125B80EF8A9E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Weinhofer_LFB">
+      <UniqueIdentifier>{0C891007-D309-4DD3-8B29-D0B21976CCDB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\ActivateLift.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\ActivateLift.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\CollectWare.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\CollectWare.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\ControllerBase.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\ControllerBase.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\CubeWare.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\CubeWare.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\DodecahedronWare.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\DodecahedronWare.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\DoorQueue.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\DoorQueue.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\DoorQueueSlot.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\DoorQueueSlot.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\DropOffWare.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\DropOffWare.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\FactoryController.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\FactoryController.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetDoorQueueSlotWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetDoorQueueSlotWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetFirstOpenSpotInQueue.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetFirstOpenSpotInQueue.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetMachineCollectWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetMachineCollectWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetMachineSupplyWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetMachineSupplyWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetMachineWorkstationWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetMachineWorkstationWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetMaterial.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetMaterial.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetMaterialDispenserWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetMaterialDispenserWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetRandomIdleWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetRandomIdleWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetTargetMachine.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetTargetMachine.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetWareGrabberWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetWareGrabberWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GetWaypoint.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GetWaypoint.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\GiveWorkscreenRobotAgenda.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\GiveWorkscreenRobotAgenda.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Lift.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Lift.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Machine.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Machine.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\MachineMaterial.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\MachineMaterial.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\MainMenuController.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\MainMenuController.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\MaterialDispenser.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\MaterialDispenser.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Overlord.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Overlord.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\PlayRobotWave.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\PlayRobotWave.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Produce1Percent.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Produce1Percent.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\PyramidWare.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\PyramidWare.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RegisterWithLift.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RegisterWithLift.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\ResetCollectBehavior.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\ResetCollectBehavior.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Robot.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Robot.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RobotAgenda.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RobotAgenda.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RobotAIController.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RobotAIController.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RobotDoor.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RobotDoor.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RobotDoorButton.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RobotDoorButton.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\RobotOverlord.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\RobotOverlord.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\SetAppropriateExpression.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\SetAppropriateExpression.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Storyboard.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Storyboard.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Storyboard_Blocking.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Storyboard_Blocking.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Storyboard_Emotion.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Storyboard_Emotion.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\SupplyMachine.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\SupplyMachine.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\TossCarriedStuff.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\TossCarriedStuff.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\VRPawnBase.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\VRPawnBase.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\VRPawnFactory.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\VRPawnFactory.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\VRPawnMainMenu.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\VRPawnMainMenu.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Ware.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Ware.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\WareGrabber.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\WareGrabber.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\WaypointCollection.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\WaypointCollection.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFB.Build.cs">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFB.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFB.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFBGameModeBase.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFBGameModeBase.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFB_Settings.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Weinhofer_LFB_Settings.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Weinhofer_LFB\Workscreen.cpp">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Weinhofer_LFB\Workscreen.h">
+      <Filter>Source\Weinhofer_LFB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
